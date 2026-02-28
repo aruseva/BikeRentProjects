@@ -8,7 +8,8 @@
         public RentalStatus Status { get; set; }
         public int BikeID { get; set; }
         public virtual Bike? Bike { get; set; }
-        public int UserID { get; set; }
+        public string UserID { get; set; }
+
         public virtual ApplicationUser? User { get; set; }
 
     }

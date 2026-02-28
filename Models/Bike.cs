@@ -10,5 +10,7 @@
         public string Description { get; set; }
         public decimal PriceForHour { get; set; }
         public string Image { get; set; }
+
+        public virtual ICollection<RentalRequest>? RentalRequests { get; set; }
     }
 }
